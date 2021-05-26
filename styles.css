@@ -72,7 +72,8 @@ h1 {
     border: 1px solid white;
 }
 
-.close:hover {
+.close:hover,
+.close:focus {
     color: #ff6404;
     background: white; 
     border: 1px solid #ff6404;
@@ -141,7 +142,9 @@ video {
 }
 
 .carousel .slideLeft:hover,
-.carousel .slideRight:hover {
+.carousel .slideRight:hover,
+.carousel .slideLeft:focus,
+.carousel .slideRight:focus {
     color: #ff6404;
     background: white; 
     border: 1px solid #ff6404;
@@ -179,7 +182,8 @@ a {
     z-index: 1000;
 }
 
-a:hover{
+a:hover,
+a:focus {
     color: #ff6404;
     background: white; 
     border: 1px solid #ff6404;
