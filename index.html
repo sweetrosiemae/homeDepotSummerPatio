@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet"> 
+    <title>Home Depot Summer Sale</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <!-- OPENING HEADER -->
+        <div class="titleContainer">
+            <div class="logoContainer">
+                <img src="./assets/homeDepotLogo.jpeg" alt="Home Depot Logo">
+            </div>
+            <h1>Annual Summer Sale!</h1>
+        </div>
+
+        <!-- POP UP ADD -->
+        <div class="interstitial" id="interstitial">
+            <div class="close">
+                <p>X</p>
+            </div>
+
+            <!-- VIDEO -->
+            <video controls autoplay="autoplay">
+                <source src="./assets/homeDepotAdFinal.mp4" type="video/mp4">
+            </video>
+
+
+            <!-- TITLE -->
+                <div class="titleContainer2">
+                    <h1>Annual Home Depot Summer Patio Sale</h1>
+                </div>
+
+            <!-- PATIO ITEM CAROUSEL -->
+            <div class="carousel">
+                <div class="patioItems">
+                    <div class="patioItem  activeCarousel">
+                        <img src="./assets/fireplacePatioSet.png"
+                            alt="outdoor fireplace next to pool and white patio table set">
+                        <a
+                            href="https://www.homedepot.ca/product/hampton-bay-56-inch-outdoor-cone-chimney-fireplace/1001469574">Outdoor
+                            Chimney Fireplace</a>
+                    </div>
+
+                    <div class="patioItem">
+                        <img src="./assets/rug.png" alt="blue outdoor rug with a furniture set">
+                        <a
+                            href="https://www.homedepot.ca/product/multy-home-armadale-blue-6-ft-x-6-ft-round-polyweave-outdoor-rug/1001491693?rrec=true">Polyweave
+                            Outdoor Rug</a>
+                    </div>
+
+                    <div class="patioItem">
+                        <img src="./assets/patioSectional.png"
+                            alt="outdoor sectional with blue cushions on condo balcony">
+                        <a
+                            href="https://www.homedepot.ca/product/corliving-corliving-parksville-l-shaped-outdoor-sectional-set-with-chair-7pc/1001559700">L-Shaped
+                            Sectional Set</a>
+                    </div>
+
+                    <div class="patioItem">
+                        <img src="./assets/pergola.png" alt="outdoor wooden pergola on a patio">
+                        <a href="https://www.homedepot.ca/product/yardistry-10-ft-x-12-ft-meridian-pergola/1001580805">Meridian
+                            Pergola</a>
+                    </div>
+                </div>
+
+                <!-- CAROUSEL SLIDER BUTTONS -->
+                <div class="slideLeft"><</div>
+                        <div class="slideRight">></div>
+                </div>
+
+
+                <!-- VISIT A STORE -->
+                <div class="visitContainer">
+
+                <!-- GOOGLE MAP CLOSEST LOCATION -->
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d35966.689108984676!2d-79.4477312111957!3d43.68901132081732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1shome%20depot!5e0!3m2!1sen!2sca!4v1621880722834!5m2!1sen!2sca"
+                        style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe>
+
+                    <!-- HEAD TO PATIO SECTION ON HOME DEPOT SITE -->
+                    <div class="logoContainer2">
+                        <div class="logo2">
+                            <img src="./assets/homeDepotLogo.jpeg" alt="Home Depot Orange Logo">
+                        </div>
+
+                        <a href="https://www.homedepot.ca/en/home/categories/outdoors/patio-furniture.html?searchterm=patio#">Shop Online</a>
+                    </div>
+                
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <script src="script.js"></script>
+</body>
+
+</html>
